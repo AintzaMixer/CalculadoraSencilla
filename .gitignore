@@ -1,0 +1,48 @@
+# # # Entornos Virtuales de Python # # #
+# Nunca se deben subir las dependencias, son específicas de cada máquina.
+# Se deben instalar a partir de los archivos requirements.txt.
+.venv/
+venv/
+ENV/
+env/
+/env.bak/
+/venv.bak/
+
+# # # Archivos de Caché y Bytecode de Python # # #
+# Estos archivos son generados automáticamente por Python para mejorar el rendimiento.
+# No son parte del código fuente.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# # # Carpetas de Build y Distribución (PyInstaller) # # #
+# Estas carpetas contienen los ejecutables y archivos intermedios generados
+# por PyInstaller. Son el "resultado" del código, no el código en sí.
+/build/
+/dist/
+
+# # # Archivos y Carpetas de IDEs y Editores de Código # # #
+# Configuraciones personales de tu entorno de desarrollo.
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# # # Archivos Generados por Herramientas de Testing y Calidad # # #
+# Reportes de cobertura, caché de pruebas, etc.
+.pytest_cache/
+.coverage
+/htmlcov/
+nosetests.xml
+coverage.xml
+
+# # # Archivos Específicos del Sistema Operativo # # #
+# Metadatos generados por macOS y Windows que no deben estar en el repo.
+.DS_Store
+Thumbs.db
+
+# # # Archivos de Log # # #
+# Los logs son específicos de una ejecución y no deben ser versionados.
+*.log
+*.log.*

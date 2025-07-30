@@ -1,0 +1,72 @@
+/* ui/style.qss */
+QMainWindow {
+    background-color: #2E2E2E;
+}
+
+QLineEdit#display_output {
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    border: 1px solid #4A4A4A;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QPushButton {
+    background-color: #4A4A4A;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 40px;
+}
+
+QPushButton:hover {
+    background-color: #5A5A5A;
+}
+
+QPushButton:pressed {
+    background-color: #6A6A6A;
+}
+
+/* Botones de operadores */
+QPushButton#btn_div,
+QPushButton#btn_mul,
+QPushButton#btn_sub,
+QPushButton#btn_add,
+QPushButton#btn_pow {
+    background-color: #FF9500;
+}
+
+QPushButton#btn_div:hover,
+QPushButton#btn_mul:hover,
+QPushButton#btn_sub:hover,
+QPushButton#btn_add:hover,
+QPushButton#btn_pow:hover {
+    background-color: #FFB000;
+}
+
+/* Botones de control */
+QPushButton#btn_c,
+QPushButton#btn_ce,
+QPushButton#btn_del {
+    background-color: #3D3D3D;
+    color: #FF5555;
+}
+
+QPushButton#btn_c:hover,
+QPushButton#btn_ce:hover,
+QPushButton#btn_del:hover {
+    background-color: #4D4D4D;
+}
+
+/* Botón de igual */
+QPushButton#btn_equals {
+    background-color: #FFB000;
+    font-size: 24px;
+}
+
+QPushButton#btn_equals:hover {
+    background-color: #FFC700;
+}
